@@ -16,7 +16,7 @@
 Libraries  used to get done the project:
 ```
 PDFLoader - to purse the data
-TestSplit - to split the text into chunks
+TextSplit(RecursiveCharacterTextSplitter) - to split the text into chunks
 sentence-transformers(all-mpnet-base-v2) - Embedding the chunks
 ChromaDB - to store the Embedding Vectors
 Groq-LLM(openai/gpt-oss-120b) - to summarize the context along with the prompt
@@ -46,6 +46,7 @@ streamlit run app.py
 ```
 
 #Future scope:
-* Adding persionlization like speech to text
+* Adding persionlization like speech
 * Retrieval of images 
-* Industry level optimization using for better retrieval with - FAiSS, PineCone
+* Industry level optimization using for better retrieval with - FAISS, PineCone
+* Works with all document types.
