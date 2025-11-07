@@ -1,0 +1,22 @@
+
+langchain
+langchain-core
+langchain-community
+
+#document loaders
+pypdf
+pymupdf
+
+#Embedings
+sentence-transformers
+
+
+#vectordb
+faiss-cpu
+chromadb
+
+# LLM
+langchain-groq
+python-dotenv
+
+streamlit
